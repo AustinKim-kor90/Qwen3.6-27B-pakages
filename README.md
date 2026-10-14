@@ -19,3 +19,5 @@ MODEL_PATH=/data/models/Qwen3.6-27B TP=2 bash run.sh
 - OOM 시 `MAX_LEN=65536 bash run.sh`, 텍스트 전용이면 `bash run.sh --language-model-only`
 
 자세한 설치 방법(다른 PC에서 받아 서버로 옮기는 경우 포함): [INSTALL_GUIDE.md](INSTALL_GUIDE.md)
+
+백업용 분할 압축본(반디집/7-Zip으로 바로 열림): [zip/README.md](zip/README.md)
